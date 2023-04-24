@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "localhost:5001";
+const BASE_URL = "http://localhost:5001";
 
 /** getAllDogs
  * API call to get info on all dogs
