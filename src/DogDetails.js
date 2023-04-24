@@ -13,6 +13,8 @@ import { useParams } from 'react-router-dom';
 function DogDetails() {
   const { name } = useParams();
 
+  console.log("name", name);
+
   return (
     <div className='DogDetails'>
       <h2>{ name }</h2>
