@@ -3,8 +3,7 @@ import { useParams } from 'react-router-dom';
 
 /** Details about a single dog
  *
- * Props:
- *  - dog: data about a single dog
+ * Props: none
  *
  * State: none
  *
@@ -12,8 +11,6 @@ import { useParams } from 'react-router-dom';
  */
 function DogDetails() {
   const { name } = useParams();
-
-  console.log("name", name);
 
   return (
     <div className='DogDetails'>
