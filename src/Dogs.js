@@ -21,7 +21,7 @@ function Dogs() {
     setDogInfo(dogs);
   }
 
-  getDogs();
+  if(!dogInfo) getDogs();
 
   return (
     <div className="Dogs">
