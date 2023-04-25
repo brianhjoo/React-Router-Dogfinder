@@ -27,7 +27,7 @@ function DogList({ dogs }) {
       return (
         <div key={i}>
           <Link to={`./dogs/${name}`}>
-            <img src={`./public/${name}`} alt={`dog ${name}`} />
+            <img src={`./${name}.jpg`} alt={`dog ${name}`} />
             <h2>{name}</h2>
           </Link>
           <p>age: {age}</p>
